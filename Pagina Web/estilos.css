@@ -1,0 +1,77 @@
+/* Fuente general*/
+body {
+  font-family: "Comic Sans MS", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+  background: #375faf;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Menu  */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 16px 0;
+  text-align: center;
+}
+nav ul li { margin: 8px 0; }
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1f3b73;
+}
+nav ul li a:hover { text-decoration: underline; }
+
+/* Contenido principal */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Secciones */
+section {
+  background: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Titulos */
+h1  { text-align: center; }
+h2, h3, h4 {text-align: left; }
+
+
+.referencias {
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Definiciones */
+p { text-align: left; }
+
+/* Imagenes Centradas*/
+section img {
+  display: block;
+  margin: 16px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Pie de página */
+footer {
+  background: #375faf;
+  color: #fff;
+  padding: 20px;
+}
